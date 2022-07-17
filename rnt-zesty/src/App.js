@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import "./App.css";
 import "./assets/style/style.css";
 
 import apple from "./assets/images/image1.jpg";
