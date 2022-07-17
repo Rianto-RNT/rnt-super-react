@@ -1,0 +1,28 @@
+{
+  "name": "zesty-server",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.17.1",
+    "npm": "8.13.2"
+  },
+  "scripts": {
+    "rnt-zesty": "cd rnt-zesty && npm start",
+    "server": "nodemon server.js",
+    "build": "cd rnt-zesty && npm run build",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run rnt-zesty\"",
+    "start": "node server.js",
+    "heroku-postbuild": "cd rnt-zesty && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "2.8.5",
+    "dotenv": "7.0.0",
+    "express": "^4.16.4",
+    "express-sslify": "^1.2.0",
+    "stripe": "6.28.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.19.4"
+  }
+}

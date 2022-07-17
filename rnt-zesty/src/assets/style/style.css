@@ -1,0 +1,223 @@
+body {
+  background: #7f8487;
+  color: #413f42;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  text-rendering: optimizeLegibility;
+  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 10vw;
+  line-height: 1.4;
+  margin: 0 20px;
+}
+
+h2 {
+  bottom: 0;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin: 0 20px 20px;
+  position: fixed;
+}
+
+p {
+  font-size: 18px;
+}
+
+section {
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+figure {
+  margin: 0;
+  position: relative;
+  width: 50vw;
+}
+
+figcaption {
+  bottom: 0;
+  color: #fff;
+  font-size: 36px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+  padding: 20px 0;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.display {
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
+}
+
+aside {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background: #e8e8e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.loading-bar {
+  display: grid;
+  grid-row-gap: 12px;
+}
+
+progress[value]::-webkit-progress-bar {
+  background: #e8e8e8;
+}
+
+progress[value]::-webkit-progress-value {
+  background: #294910;
+}
+
+progress {
+  border: 1px solid #294910;
+  height: 20px;
+  width: 400px;
+}
+
+/*ZESTY TITLE ANIMATION*/
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 85px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+/*END ZESTY TITLE ANIMATION*/
+
+/*TEXT TOUCH ME*/
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #df8453;
+  --color-2: #3d8dae;
+  --color-3: #e4a9a8;
+}
+
+.title-word-2 {
+  --color-1: #dbad4a;
+  --color-2: #accfcb;
+  --color-3: #17494d;
+}
+
+.title-word-3 {
+  --color-1: #accfcb;
+  --color-2: #e4a9a8;
+  --color-3: #accfcb;
+}
+
+.title-word-4 {
+  --color-1: #3d8dae;
+  --color-2: #df8453;
+  --color-3: #e4a9a8;
+}
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1);
+  }
+  32% {
+    color: var(--color-1);
+  }
+  33% {
+    color: var(--color-2);
+  }
+  65% {
+    color: var(--color-2);
+  }
+  66% {
+    color: var(--color-3);
+  }
+  99% {
+    color: var(--color-3);
+  }
+  100% {
+    color: var(--color-1);
+  }
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 5.5vw;
+  text-transform: uppercase;
+}
+/*END TEXT TOUCH ME*/
+
+@media (max-width: 800px) {
+  section {
+    flex-direction: column;
+  }
+
+  figure {
+    flex-grow: 1;
+    width: 100vw;
+  }
+
+  figcaption {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+    position: relative;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+}
