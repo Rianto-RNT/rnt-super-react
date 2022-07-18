@@ -33,46 +33,50 @@ Check:
 
 for more info.
 
-## Deployment
+## Deployment Zesty
 
-The website is deployed with git into heroku. Below are the steps taken:
+The website is deployed with build into netlify. Below are the steps taken:
 
+1. Create build folder
+
+```sh
+$ cd rnt-zesty
+$ npm run build
 ```
-git init
-git add -A
-git commit -m "Commit message"
-heroku login
-heroku create
-heroku config:set CONFIG_KEY=CONFIG_VALUE
-git push heroku master
-heroku open
-```
+
+2. Create netlify account
+3. Go to dasboard > sites > dragdrop "build" folder into: "Drag and drop your site output folder here"
+4. Wait for uploading
+5. Netlify generate your site and address URL link.
+   [![](https://github.com/Rianto-RNT/rnt-super-react/blob/development/rnt-zesty/src/assets/images/netlify-build-folder-upload-location.png)](https://github.com/Rianto-RNT/rnt-super-react)
 
 ## Installation
 
 You can fork the app or you can git-clone the app into your local machine. Once done that, please install all the dependencies by running
 
-```
+```sh
+$ cd rnt-zesty
 $ npm i
-$ npm start
 ```
 
 ## Run App in Development
 
 ```sh
- npm run dev
+$ cd rnt-zesty
+$ npm start
 ```
 
 ## Build With
 
 - [Node.js](https://nodejs.org/en) - JS runtime environment
+- [React](https://www.react.org/) - A JavaScript library for building user interfaces.
 - [VSCode](https://code.visualstudio.com) - Free source-code editor made by Microsoft
 - [Git](https://git-scm.com) - Open source distributed version control system
-- [Heroku](https://www.heroku.com/) - Cloud platform
+- [Netlify](https://www.netlify.com/) - Web developer platform that multiplies productivity.
 
 ## NPM Packages
 
-- [dotenv](https://github.com/motdotla/dotenv#readme)
+- [create-react-app](https://github.com/facebook/create-react-app)
 
 ## Development Process
 
@@ -85,6 +89,13 @@ $ npm start
 ### 1) Zesty
 
 - Building Zesty
+- Creating a global state
+- Intro to hooks and event handlers
+- Updating the index position with an event handler
+- Adding an index counter and refactoring HTML/CSS
+- Creating a loading component
+- Writing the loading logic
+- Making our project responsive
 
 ### 2) MILKYMood
 
@@ -105,7 +116,8 @@ Please enjoy and feel free to share your opinion, constructive criticism, or com
 
 ## Route Structure
 
-> GET/POST/PUT/DELETE
+1. Zesty
+   > /
 
 # Acknowledgement
 
