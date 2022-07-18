@@ -100,6 +100,9 @@ $ npm start
 ### 2) MILKYMood
 
 - Introduction to MilkyMood
+   - Setup CRA
+   - Setup prettierrc and prettierignore
+   - setup index.html
 
 ### 3) Book Club
 
