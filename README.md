@@ -110,6 +110,11 @@ $ npm start
   - Install fonts
   - Rename index.js to be index.jsx
   - Setup package.json file and line of code down below
+- Building the Header component
+  - Create Component header index.jsx
+  - Create styles component for header
+  - Import Logo
+  - Create Header Component
 
 ```sh
 "description": "",

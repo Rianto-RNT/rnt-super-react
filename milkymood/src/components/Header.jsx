@@ -1,10 +1,7 @@
 import React from 'react'
 
-import {GlobalStyle} from './App.styles'
-// import Header from './components/Header'
-
 import styled from 'styled-components'
-import {ReactComponent as LogoSVG} from './components/_Header/logo.svg'
+import {ReactComponent as LogoSVG} from './_Header/logo.svg'
 
 export const Logo = styled(LogoSVG)`
   height: auto;
@@ -29,13 +26,4 @@ const HeaderComponent = () => (
   </Header>
 )
 
-const App = () => {
-  return (
-    <>
-      <GlobalStyle />
-      <HeaderComponent />
-    </>
-  )
-}
-
-export default App
+export default HeaderComponent
