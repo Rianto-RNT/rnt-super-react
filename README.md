@@ -77,6 +77,7 @@ $ npm start
 ## NPM Packages
 
 - [create-react-app](https://github.com/facebook/create-react-app)
+- [styled-components](https://github.com/styled-components/styled-components)
 
 ## Development Process
 
@@ -100,9 +101,21 @@ $ npm start
 ### 2) MILKYMood
 
 - Introduction to MilkyMood
-   - Setup CRA
-   - Setup prettierrc and prettierignore
-   - setup index.html
+  - Setup CRA
+  - Setup prettierrc and prettierignore
+  - setup index.html
+- Introduction to Styled Components
+  - Create App styles component
+  - Implemanting GlobalStyle in app.js
+  - Install fonts
+  - Rename index.js to be index.jsx
+  - Setup package.json file and line of code down below
+
+```sh
+"description": "",
+"keywords": [],
+"main": "src/index.jsx",
+```
 
 ### 3) Book Club
 
