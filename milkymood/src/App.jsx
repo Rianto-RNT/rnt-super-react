@@ -50,8 +50,7 @@ const App = () => {
       >
         <ImageContainer $isTogether={distance < 0.001}>
           {matrix.map(([x, y], index) => (
-            <ImgBox key={index} x={x} y={y}  />
-            // percent={distance}
+            <ImgBox key={index} x={x} y={y} percent={distance} />
           ))}
         </ImageContainer>
       </Wrapper>
