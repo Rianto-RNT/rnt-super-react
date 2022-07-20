@@ -1,9 +1,10 @@
 import React from 'react'
 
-import {GlobalStyle} from './App.styles'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import ImgBox from './components/ImgBox'
 
+import {GlobalStyle, ImageContainer, Wrapper} from './App.styles'
 
 const App = () => {
   return (
@@ -11,6 +12,11 @@ const App = () => {
       <GlobalStyle />
       <Header />
       <Footer />
+      <Wrapper>
+        <ImageContainer>
+          <ImgBox />
+        </ImageContainer>
+      </Wrapper>
     </>
   )
 }

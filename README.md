@@ -127,6 +127,9 @@ $ npm start
   - Create Footer styles
   - Implementing in App.js
 - Building the Image component
+  - Create Image Box index component
+  - Create style component for image box
+  - Implementing in app js file
 - Using a matrix to slice the image into a puzzle
 - Using hooks, event handlers, and maths to calculate the cursor distance
 - Setting new positions for the image squares
