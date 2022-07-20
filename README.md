@@ -122,9 +122,24 @@ $ npm start
 "main": "src/index.jsx",
 ```
 
+- Building the Footer component
+  - Create Footer index
+  - Create Footer styles
+  - Implementing in App.js
+- Building the Image component
+- Using a matrix to slice the image into a puzzle
+- Using hooks, event handlers, and maths to calculate the cursor distance
+- Setting new positions for the image squares
+- Changing the background color and glow animation based off of the image's status
+- Adding responsive styles
+
 ### 3) Book Club
 
 - Introduction to Book Club
+
+## Articles
+
+- [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 
 ## Future Updates
 

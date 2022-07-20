@@ -1,7 +1,7 @@
 import React from 'react'
 
 import styled from 'styled-components'
-import {ReactComponent as LogoSVG} from './_Header/logo.svg'
+import {ReactComponent as LogoSVG} from './Header/logo.svg'
 
 export const Logo = styled(LogoSVG)`
   height: auto;
