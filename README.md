@@ -143,6 +143,9 @@ $ npm start
 ## Articles
 
 - [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+- [Math.hypot()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/hypot)
+- [MouseEvent](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent)
+- [TouchEvent](https://developer.mozilla.org/en-US/docs/Web/API/Touch_events)
 
 ## Future Updates
 
