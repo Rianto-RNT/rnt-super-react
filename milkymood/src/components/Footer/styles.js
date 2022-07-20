@@ -14,6 +14,8 @@ export const H2 = styled.h2`
   line-height: 0.7;
   margin: 0;
   padding: 15px;
+  
+  // responesive media query
   @media (max-width: 900px) {
     font-size: 44px;
   }

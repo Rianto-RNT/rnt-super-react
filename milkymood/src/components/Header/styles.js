@@ -15,6 +15,7 @@ export const Header = styled.header`
   justify-content: center;
   padding: 30px;
 
+  // media query
   @media (max-width: 700px) {
     padding: 15px;
   }
