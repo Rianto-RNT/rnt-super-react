@@ -1,6 +1,7 @@
 import styled, {createGlobalStyle} from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
+// key glow styled component keyframes
   @keyframes glow {
     0% {
       box-shadow: rgb(252, 210, 23) 0 0 0px;

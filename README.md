@@ -146,6 +146,7 @@ $ npm start
 - [Math.hypot()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/hypot)
 - [MouseEvent](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent)
 - [TouchEvent](https://developer.mozilla.org/en-US/docs/Web/API/Touch_events)
+- [Keyframe-styled-component](https://styled-components.com/docs/api#keyframes)
 
 ## Future Updates
 
