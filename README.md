@@ -21,7 +21,10 @@
 
 ## Deployed Version
 
-Live demo (Feel free to visit) 👉 : https://tinyurl.com/zesty-rnt-creative or https://62d41759f047fa5ec85817e0--dapper-cendol-7d0b54.netlify.app/
+Live demo (Feel free to visit) 👉 :
+
+- [Zesty](https://62d41759f047fa5ec85817e0--dapper-cendol-7d0b54.netlify.app/) or https://tinyurl.com/zesty-rnt-creative
+- [milkymood](https://lambent-hotteok-00b7b0.netlify.app/) or https://tinyurl.com/rnt-milkymood
 
 ## API Usage
 
