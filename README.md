@@ -78,6 +78,8 @@ $ npm start
 
 - [create-react-app](https://github.com/facebook/create-react-app)
 - [styled-components](https://github.com/styled-components/styled-components)
+- [formik](https://github.com/jaredpalmer/formik)
+- [yup](https://github.com/jquense/yup)
 
 ## Development Process
 
