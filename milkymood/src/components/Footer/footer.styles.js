@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {Marginals} from '../Header/styles'
+import {Marginals} from '../Header/header.styles'
 
 export const Footer = styled.footer`
   ${Marginals}

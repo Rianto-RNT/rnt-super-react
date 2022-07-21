@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Footer, H2, H2Middle} from './styles'
+import {Footer, H2, H2Middle} from './footer.styles'
 
 const FooterComponent = () => (
   <Footer>

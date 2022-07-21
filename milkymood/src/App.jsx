@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 
-import Header from './components/Header'
-import Footer from './components/Footer'
-import ImgBox from './components/ImgBox'
-import Modal from './components/Modal'
+import Header from './components/Header/header.index'
+import Footer from './components/Footer/footer.index'
+import ImgBox from './components/ImgBox/img-box.index'
+import Modal from './components/Modal/modal.index'
 import ModalInner from './components/ModalInner/modal-inner.index'
 
 import {GlobalStyle, Wrapper, ImageContainer, Button} from './App.styles'

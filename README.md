@@ -159,7 +159,7 @@ $ npm start
 - Refactoring the input fields to use Formik's Field hook
   - Form index refactor code more readable
 - Styling the form and modal using styled components
-- form and modal inner styles and code refactor
+  - form and modal inner styles and code refactor
 
 ### 3) Book Club
 

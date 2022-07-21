@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Header, Logo} from './styles'
+import {Header, Logo} from './header.styles'
 
 const HeaderComponent = () => (
   <Header>
