@@ -100,7 +100,7 @@ $ npm start
 
 ### 2) MILKYMood
 
-- Introduction to MilkyMood
+- Introduction to MilkyMood #1
   - Setup CRA
   - Setup prettierrc and prettierignore
   - setup index.html
@@ -110,11 +110,6 @@ $ npm start
   - Install fonts
   - Rename index.js to be index.jsx
   - Setup package.json file and line of code down below
-- Building the Header component
-  - Create Component header index.jsx
-  - Create styles component for header
-  - Import Logo
-  - Create Header Component
 
 ```sh
 "description": "",
@@ -122,6 +117,11 @@ $ npm start
 "main": "src/index.jsx",
 ```
 
+- Building the Header component
+  - Create Component header index.jsx
+  - Create styles component for header
+  - Import Logo
+  - Create Header Component
 - Building the Footer component
   - Create Footer index
   - Create Footer styles
@@ -135,6 +135,19 @@ $ npm start
 - Setting new positions for the image squares
 - Changing the background color and glow animation based off of the image's status
 - Adding responsive styles
+  - Header responsive
+  - Footer Responsive
+  - App responsive
+- Introduction to MilkyMood #2
+- Creating a sign up button and modal window
+  - Create index modal file
+  - Create modal styles
+  - Implementing in app
+- Adding functionality to the modal window
+- Creating a Basic Form
+- Refactoring the form to use Formik and Yup
+- Refactoring the input fields to use Formik's Field hook
+- Styling the form and modal using styled components
 
 ### 3) Book Club
 
