@@ -1,15 +1,18 @@
 import React from 'react'
+
 import * as Yup from 'yup'
-import {Formik, Form, Field, useField} from 'formik'
+import {Formik, Form, useField} from 'formik'
+
+import {Input, Label, Error, Submit} from './form.styles'
 
 const InputComponent = ({label, ...props}) => {
   const [field, meta] = useField(props)
 
   return (
-    <label>
-      {label} : {meta.touched && meta.error && <div>{meta.error}</div>}
-      <input {...field} {...props} />
-    </label>
+    <Label>
+      {label} : {meta.touched && meta.error && <Error>{meta.error}</Error>}
+      <Input {...field} {...props} />
+    </Label>
   )
 }
 
@@ -33,7 +36,7 @@ const FormComponent = ({handleSuccess}) => {
           <InputComponent type="text" name="name" label="Name " autoComplete="off" />
           <InputComponent type="email" name="email" label="Email " autoComplete="off" />
 
-          <button type="submit">Submit</button>
+          <Submit type="submit">Submit</Submit>
         </Form>
       )}
     </Formik>
