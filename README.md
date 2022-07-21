@@ -144,6 +144,9 @@ $ npm start
   - Create modal styles
   - Implementing in app
 - Adding functionality to the modal window
+  - Implementing Toggle Modal fuctionality
+  - Close button in modal
+  - Absolute Center reuseable code
 - Creating a Basic Form
 - Refactoring the form to use Formik and Yup
 - Refactoring the input fields to use Formik's Field hook

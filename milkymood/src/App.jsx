@@ -47,7 +47,7 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
-      {showModal && <Modal />}
+      {showModal && <Modal toggleModal={toggleModal} />}
       <Header />
       <Footer />
       <Wrapper

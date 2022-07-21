@@ -1,4 +1,4 @@
-import styled, {createGlobalStyle} from 'styled-components'
+import styled, {createGlobalStyle, css} from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
 // key glow styled component keyframes
@@ -48,12 +48,15 @@ export const ImageContainer = styled.div.attrs(({$isTogether}) => ({
   height: 600px;
   width: 400px;
 `
-
-export const Button = styled.button`
+export const AbsoluteCenter = css`
   left: 50%;
   top: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
+`
+
+export const Button = styled.button`
+  ${AbsoluteCenter}
   background: none;
   border: 2px solid #fbfbfb;
   border-radius: 100%;

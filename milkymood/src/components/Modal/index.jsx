@@ -1,10 +1,12 @@
 import React from 'react'
-import {Modal, BG} from './modal.style'
+import {Modal, BG, Close} from './modal.style'
 
-const ModalComponent = () => (
+const ModalComponent = ({toggleModal}) => (
   <>
-    <Modal />
-    <BG />
+    <Modal>
+      <Close onClick={toggleModal} />
+    </Modal>
+    <BG onClick={toggleModal} />
   </>
 )
 
