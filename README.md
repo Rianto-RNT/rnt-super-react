@@ -157,6 +157,7 @@ $ npm start
 - Refactoring the form to use Formik and Yup
   - index form refactor code using Formik and validation using Yup
 - Refactoring the input fields to use Formik's Field hook
+  - Form index refactor code more readable
 - Styling the form and modal using styled components
 
 ### 3) Book Club
@@ -170,6 +171,7 @@ $ npm start
 - [MouseEvent](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent)
 - [TouchEvent](https://developer.mozilla.org/en-US/docs/Web/API/Touch_events)
 - [Keyframe-styled-component](https://styled-components.com/docs/api#keyframes)
+- [Formik - useField() - Hook](https://formik.org/docs/api/useField)
 
 ## Future Updates
 
