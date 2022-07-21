@@ -153,6 +153,7 @@ $ npm start
   - Modal inner
   - modal styles
 - Refactoring the form to use Formik and Yup
+  - index form refactor code using Formik and validation using Yup
 - Refactoring the input fields to use Formik's Field hook
 - Styling the form and modal using styled components
 
