@@ -148,6 +148,10 @@ $ npm start
   - Close button in modal
   - Absolute Center reuseable code
 - Creating a Basic Form
+  - Form index file
+  - Form style file
+  - Modal inner
+  - modal styles
 - Refactoring the form to use Formik and Yup
 - Refactoring the input fields to use Formik's Field hook
 - Styling the form and modal using styled components
