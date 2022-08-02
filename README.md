@@ -79,6 +79,7 @@ $ npm start
 - [VSCode](https://code.visualstudio.com) - Free source-code editor made by Microsoft
 - [Git](https://git-scm.com) - Open source distributed version control system
 - [Netlify](https://www.netlify.com/) - Web developer platform that multiplies productivity.
+- [chocolatey](https://chocolatey.org/)
 
 ## NPM Packages
 
@@ -86,7 +87,8 @@ $ npm start
 - [styled-components](https://github.com/styled-components/styled-components)
 - [formik](https://github.com/jaredpalmer/formik)
 - [yup](https://github.com/jquense/yup)
-- [chocolatey](https://chocolatey.org/)
+- [react-transition-group](https://github.com/reactjs/react-transition-group)
+- [lodash](https://github.com/lodash/lodash)
 
 ## Development Process
 
