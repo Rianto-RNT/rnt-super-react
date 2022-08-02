@@ -24,10 +24,10 @@
 Live demo (Feel free to visit) 👉 :
 
 - [Zesty](https://62d41759f047fa5ec85817e0--dapper-cendol-7d0b54.netlify.app/) or https://tinyurl.com/zesty-rnt-creative
-   [![](https://github.com/Rianto-RNT/rnt-super-react/blob/development/rnt-zesty/src/assets/images/zesty-homepage.png)](https://github.com/Rianto-RNT/rnt-super-react)
+  [![](https://github.com/Rianto-RNT/rnt-super-react/blob/development/rnt-zesty/src/assets/images/zesty-homepage.png)](https://github.com/Rianto-RNT/rnt-super-react)
 
 - [milkymood](https://lambent-hotteok-00b7b0.netlify.app/) or https://tinyurl.com/rnt-milkymood
-   [![](https://github.com/Rianto-RNT/rnt-super-react/blob/development/milkymood/src/assets/images/milky-mood-homepage.png)](https://github.com/Rianto-RNT/rnt-super-react)
+  [![](https://github.com/Rianto-RNT/rnt-super-react/blob/development/milkymood/src/assets/images/milky-mood-homepage.png)](https://github.com/Rianto-RNT/rnt-super-react)
 
 ## API Usage
 
@@ -86,6 +86,7 @@ $ npm start
 - [styled-components](https://github.com/styled-components/styled-components)
 - [formik](https://github.com/jaredpalmer/formik)
 - [yup](https://github.com/jquense/yup)
+- [chocolatey](https://chocolatey.org/)
 
 ## Development Process
 
@@ -170,6 +171,7 @@ $ npm start
 ### 3) Book Club
 
 - Introduction to Book Club
+- Setting up a local environment and creating a new React app
 
 ## Articles
 
