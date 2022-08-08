@@ -31,11 +31,13 @@ Live demo (Feel free to visit) 👉 :
 
 ## API Usage
 
+Live Demo 👉: https://book-club-json.herokuapp.com/books
+
 Check:
 
-[API Documentation Postman](https://documenter.getpostman.com/view/16994323/UVkiSJNz)
+[API Documentation Postman](https://book-club-json.herokuapp.com/books)
 
-[API Documentation Swagger](https://app.swaggerhub.com/apis-docs/rnt-development-one/bootcamp-booking_api/1.0)
+[API Documentation Swagger](https://book-club-json.herokuapp.com/books)
 
 for more info.
 
@@ -176,6 +178,8 @@ $ npm start
 - Introduction to Book Club
 - Setting up a local environment and creating a new React app
 - Configuring our code editor and cleaning up default files
+- Fetching data from an API
+  - API Books data >>> https://book-club-json.herokuapp.com/books
 
 ## Articles
 
@@ -185,6 +189,10 @@ $ npm start
 - [TouchEvent](https://developer.mozilla.org/en-US/docs/Web/API/Touch_events)
 - [Keyframe-styled-component](https://styled-components.com/docs/api#keyframes)
 - [Formik - useField() - Hook](https://formik.org/docs/api/useField)
+- [javascript-promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+- [javascript-async-function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+- [javascript-response](https://developer.mozilla.org/en-US/docs/Web/API/Response)
+- [javascript-try-catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
 
 ## Future Updates
 
