@@ -31,7 +31,7 @@ Live demo (Feel free to visit) 👉 :
 
 ## API Usage
 
-Live Demo 👉: https://book-club-json.herokuapp.com/books
+- Book Club API live demo 👉: https://book-club-json.herokuapp.com/books
 
 Check:
 
@@ -41,7 +41,7 @@ Check:
 
 for more info.
 
-## Deployment Zesty
+## Deployment
 
 The website is deployed with build into netlify. Below are the steps taken:
 
@@ -175,11 +175,13 @@ $ npm start
 
 ### 3) Book Club
 
+- [figma-file](https://www.figma.com/file/MwZxjRaE0HcDKleUfypjwm/Project_3_Book_Club?node-id=3%3A19)
 - Introduction to Book Club
 - Setting up a local environment and creating a new React app
 - Configuring our code editor and cleaning up default files
 - Fetching data from an API
   - API Books data >>> https://book-club-json.herokuapp.com/books
+- Rendering the book as a React component
 
 ## Articles
 

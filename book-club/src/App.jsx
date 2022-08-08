@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from 'react'
 
+import BooksContainer from './components/BooksContainer'
+
 const App = () => {
   const [books, setBooks] = useState([])
 
@@ -26,7 +28,7 @@ const App = () => {
 
   return (
     <>
-      <h1>Book-Club</h1>
+      <BooksContainer books={books} />
     </>
   )
 }
