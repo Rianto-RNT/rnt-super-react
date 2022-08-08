@@ -89,6 +89,7 @@ $ npm start
 - [yup](https://github.com/jquense/yup)
 - [react-transition-group](https://github.com/reactjs/react-transition-group)
 - [lodash](https://github.com/lodash/lodash)
+- [prettier](https://github.com/prettier/prettier)
 
 ## Development Process
 
@@ -174,6 +175,7 @@ $ npm start
 
 - Introduction to Book Club
 - Setting up a local environment and creating a new React app
+- Configuring our code editor and cleaning up default files
 
 ## Articles
 
