@@ -202,6 +202,9 @@ $ npm start
 - [javascript-async-function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
 - [javascript-response](https://developer.mozilla.org/en-US/docs/Web/API/Response)
 - [javascript-try-catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+- [react-transition-group/transition](https://reactcommunity.org/react-transition-group/transition)
+- [transition-prop-timeout](https://reactcommunity.org/react-transition-group/transition#Transition-prop-timeout)
+- [react-useRef-hook](https://reactjs.org/docs/hooks-reference.html#useref)
 
 ## Future Updates
 
