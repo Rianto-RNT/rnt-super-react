@@ -10,7 +10,7 @@ const BooksContainer = ({books}) => {
       <H2>All Books</H2>
       <BookList>
         {books.map((book) => (
-          <Book key={book.id} book={book} />
+          <Book key={book._id} book={book} />
         ))}
       </BookList>
     </Container>

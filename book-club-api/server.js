@@ -4,11 +4,14 @@ const morgan = require('morgan')
 const colors = require('colors')
 const cors = require('cors')
 
+const errorHandler = require('./middleware/error')
 const connectDB = require('./config/db')
 
 dotenv.config({path: './config/config.env'})
 
 connectDB()
+
+const books = require('./routes/books')
 
 const app = express()
 
@@ -20,9 +23,9 @@ if (process.env.NODE_ENV === 'development') {
 
 app.use(cors())
 
-app.get('/', (req, res) => {
-  res.send('Hello Book Club')
-})
+app.use('/api/v1/books', books)
+
+app.use(errorHandler)
 
 const PORT = process.env.PORT || 5000
 const server = app.listen(
