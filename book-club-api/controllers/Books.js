@@ -44,19 +44,6 @@ exports.createBook = asyncHandler(async (req, res, next) => {
 exports.updateBook = asyncHandler(async (req, res, next) => {
   let book = await Book.findById(req.params.id)
 
-  if (!book) {
-    return next(
-      new ErrorResponse(`Book not found with id of ${req.params.id}. Please add correct id`, 404)
-    )
-  }
-
-  // Make sure user is book owner
-  if (book.user.toString() !== req.user.id && req.user.role !== 'admin') {
-    return next(
-      new ErrorResponse(`User ${req.params.id} is not authorized to update this book`, 401)
-    )
-  }
-
   book = await Book.findOneAndUpdate(req.params.id, req.body, {
     new: true,
     runValidators: true,
@@ -70,19 +57,6 @@ exports.updateBook = asyncHandler(async (req, res, next) => {
 // @access  Private
 exports.deleteBook = asyncHandler(async (req, res, next) => {
   const book = await Book.findById(req.params.id)
-
-  if (!book) {
-    return next(
-      new ErrorResponse(`Book not found with id of ${req.params.id}. Please add correct id`, 404)
-    )
-  }
-
-  // Make sure user is book owner
-  if (book.user.toString() !== req.user.id && req.user.role !== 'admin') {
-    return next(
-      new ErrorResponse(`User ${req.params.id} is not authorized to delete this book`, 401)
-    )
-  }
 
   book.remove()
 

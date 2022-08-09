@@ -3,19 +3,19 @@ const mongoose = require('mongoose')
 const BookSchema = new mongoose.Schema({
   author: {
     type: String,
-    maxlength: [20, 'Author name can not be longer than 50 character'],
+    maxlength: [50, 'Author name can not be longer than 50 character'],
   },
   title: {
     type: String,
     required: [true, 'Please add a author'],
     unique: true,
     trim: true,
-    maxlength: [50, 'Author can not be more than 50 characters'],
+    maxlength: [100, 'Title can not be more than 100 characters'],
   },
   description: {
     type: String,
     required: [true, 'Please add a description'],
-    maxlength: [500, 'Description can not be more than 500 characters'],
+    maxlength: [1000, 'Description can not be more than 1000 characters'],
   },
   image: {
     type: String,
