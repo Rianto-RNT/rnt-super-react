@@ -4,13 +4,13 @@ import Book from '../Book'
 
 import {Container, H2, BookList} from './styles'
 
-const BooksContainer = ({books}) => {
+const BooksContainer = ({books, pickBook}) => {
   return (
     <Container>
       <H2>All Books</H2>
       <BookList>
         {books.map((book) => (
-          <Book key={book._id} book={book} />
+          <Book key={book._id} book={book} pickBook={pickBook} />
         ))}
       </BookList>
     </Container>

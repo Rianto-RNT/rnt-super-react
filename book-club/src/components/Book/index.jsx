@@ -1,10 +1,10 @@
 import React from 'react'
 import {Container, Cover, Title, Author} from './styles'
 
-const Book = ({book}) => {
+const Book = ({book, pickBook}) => {
   return (
     <>
-      <Container>
+      <Container onClick={() => pickBook(book)}>
         <Cover alt={`BookCover for ${book.title} by ${book.author}`} src={book.image} />
         <figcaption>
           <Title>{book.title}</Title>

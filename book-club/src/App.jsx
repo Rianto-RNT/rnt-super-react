@@ -7,34 +7,32 @@ import {GlobalStyle} from './styles'
 
 const App = () => {
   const [books, setBooks] = useState([])
-
-  console.log('load every time the component renders...')
+  const [selectedBook, setSelectedBook] = useState(null)
 
   useEffect(() => {
-    const fetchdata = async () => {
-      try {
-        // const response = await fetch('http://localhost:5000/api/v1/books')
-        const response = await fetch('https://rnt-book-club-json.herokuapp.com/api/v1/books')
-        console.log('here is what our fetch request returns', response)
-
-        const books = await response.json()
-        console.log('Our json-ified response', books)
-        setBooks(books)
-      } catch (error) {
-        console.log(error)
-      }
+    const fetchData = async () => {
+      // const response = await fetch('http://localhost:5000/api/v1/books')
+      const response = await fetch('https://rnt-book-club-json.herokuapp.com/api/v1/books')
+      const books = await response.json()
+      setBooks(books)
     }
 
-    fetchdata()
+    fetchData()
   }, [])
 
-  console.log(`the books array in our state: `, books)
+  // console.log(`the books array in our state: `, books)
+
+  const pickBook = (book) => {
+    setSelectedBook(book)
+  }
+
+  console.log(selectedBook)
 
   return (
     <>
       <GlobalStyle />
       <Header />
-      <BooksContainer books={books} />
+      <BooksContainer books={books} pickBook={pickBook} />
     </>
   )
 }
