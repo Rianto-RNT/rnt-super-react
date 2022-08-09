@@ -31,7 +31,7 @@ Live demo (Feel free to visit) 👉 :
 
 ## API Usage
 
-- Book Club API live demo 👉: https://book-club-json.herokuapp.com/books
+- Book Club API live demo 👉: https://rnt-book-club-json.herokuapp.com/api/v1/books
 
 Check:
 
@@ -180,9 +180,11 @@ $ npm start
 - Setting up a local environment and creating a new React app
 - Configuring our code editor and cleaning up default files
 - Fetching data from an API
-  - API Books data >>> https://book-club-json.herokuapp.com/books
+  - API Books data >>> https://rnt-book-club-json.herokuapp.com/api/v1/books
 - Rendering the book as a React component
 - Setup Book-Club API
+- Deploy Book-Club API
+- Implementing Book-club API endpoints to Book-club react
 
 ## Articles
 

@@ -10,8 +10,8 @@ const App = () => {
   useEffect(() => {
     const fetchdata = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/v1/books')
-        // const response = await fetch('https://book-club-json.herokuapp.com/books')
+        // const response = await fetch('http://localhost:5000/api/v1/books')
+        const response = await fetch('https://rnt-book-club-json.herokuapp.com/api/v1/books')
         console.log('here is what our fetch request returns', response)
 
         const books = await response.json()

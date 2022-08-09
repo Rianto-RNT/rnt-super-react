@@ -1,11 +1,16 @@
 {
   "name": "book-club-api",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.16.0",
+    "npm": "8.13.2"
+  },
   "description": "book-club api",
   "main": "server.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production & node server",
-    "dev": "nodemon server"
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\"",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
