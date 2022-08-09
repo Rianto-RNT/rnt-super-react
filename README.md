@@ -185,6 +185,7 @@ $ npm start
 - Setup Book-Club API
 - Deploy Book-Club API
 - Implementing Book-club API endpoints to Book-club react
+- Creating global styles and a header
 
 ## Articles
 
