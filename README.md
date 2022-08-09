@@ -182,6 +182,7 @@ $ npm start
 - Fetching data from an API
   - API Books data >>> https://book-club-json.herokuapp.com/books
 - Rendering the book as a React component
+- Setup Book-Club API
 
 ## Articles
 
