@@ -187,6 +187,7 @@ $ npm start
 - Implementing Book-club API endpoints to Book-club react
 - Creating global styles and a header
 - Selecting a book from the list
+- Building a detail panel to show more book info
 
 ## Articles
 
