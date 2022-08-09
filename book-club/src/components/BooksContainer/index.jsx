@@ -4,9 +4,9 @@ import Book from '../Book'
 
 import {Container, H2, BookList} from './styles'
 
-const BooksContainer = ({books, pickBook}) => {
+const BooksContainer = ({books, pickBook, isPanelOpen}) => {
   return (
-    <Container>
+    <Container $isPanelOpen={isPanelOpen}>
       <H2>All Books</H2>
       <BookList>
         {books.map((book) => (

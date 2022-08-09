@@ -188,6 +188,7 @@ $ npm start
 - Creating global styles and a header
 - Selecting a book from the list
 - Building a detail panel to show more book info
+- Closing the panel and building a background shadow
 
 ## Articles
 

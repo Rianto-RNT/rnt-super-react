@@ -4,10 +4,10 @@ import {Container, Cover, Title, Author} from './styles'
 const Book = ({book, pickBook, isLarge}) => {
   return (
     <>
-      <Container SisLarge={isLarge} onClick={() => pickBook(book)}>
+      <Container $isLarge={isLarge} onClick={() => pickBook(book)}>
         <Cover alt={`BookCover for ${book.title} by ${book.author}`} src={book.image} />
         <figcaption>
-          <Title SisLarge={isLarge}>{book.title}</Title>
+          <Title $isLarge={isLarge}>{book.title}</Title>
           <Author>by {book.author}</Author>
         </figcaption>
       </Container>
