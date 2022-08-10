@@ -189,6 +189,7 @@ $ npm start
 - Selecting a book from the list
 - Building a detail panel to show more book info
 - Closing the panel and building a background shadow
+- Adding animation to the panel
 
 ## Articles
 
@@ -205,6 +206,10 @@ $ npm start
 - [react-transition-group/transition](https://reactcommunity.org/react-transition-group/transition)
 - [transition-prop-timeout](https://reactcommunity.org/react-transition-group/transition#Transition-prop-timeout)
 - [react-useRef-hook](https://reactjs.org/docs/hooks-reference.html#useref)
+- [lodash-function-throttle](https://lodash.com/docs/4.17.15#throttle)
+- [wndow-scrolly](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY)
+- [react-cleaning-up-an-effect](https://reactjs.org/docs/hooks-reference.html#cleaning-up-an-effect)
+- [window.scroll()](https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll)
 
 ## Future Updates
 

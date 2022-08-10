@@ -1,4 +1,5 @@
 import React from 'react'
+
 import {Container, Cover, Title, Author} from './styles'
 
 const Book = ({book, pickBook, isLarge}) => {
