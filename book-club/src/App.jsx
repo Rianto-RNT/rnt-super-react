@@ -16,9 +16,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      // const response = await fetch('http://localhost:5000/api/v1/books')
       const response = await fetch('https://rnt-book-club-json.herokuapp.com/api/v1/books')
-      // const response = await fetch('https://book-club-json.herokuapp.com/books')
       const books = await response.json()
       setBooks(books)
       setFilteredBooks(books)
@@ -37,7 +35,7 @@ const App = () => {
   }
 
   const filterBooks = (searchTerm) => {
-    const stringSearch = (bookAtribute, searchTerm) => bookAtribute.toLowerCase().includes(searchTerm.toLowerCase())
+    const stringSearch = (bookAttribute, searchTerm) => bookAttribute.toLowerCase().includes(searchTerm.toLowerCase())
 
     if (!searchTerm) {
       setFilteredBooks(books)
@@ -58,7 +56,7 @@ const App = () => {
         books={filteredBooks}
         pickBook={pickBook}
         isPanelOpen={showPanel}
-        title={hasFiltered ? 'Search results' : 'All Books'}
+        title={hasFiltered ? 'Search results' : 'All books'}
       />
       <Transition in={showPanel} timeout={300}>
         {(state) => <DetailPanel book={selectedBook} closePanel={closePanel} state={state} />}

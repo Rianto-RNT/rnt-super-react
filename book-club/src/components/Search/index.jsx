@@ -8,17 +8,17 @@ const Search = ({filterBooks}) => {
   const [showOnDesktop, setShowOnDesktop] = useState(false)
 
   const handleChange = (event) => {
-    console.log(event.target)
     filterBooks(event.target.value)
   }
 
   const clearSearch = () => {
     filterBooks('')
     inputEl.current.value = ''
+    setShowOnDesktop(false)
   }
 
   const showSearch = () => {
-    setShowOnDesktop()
+    setShowOnDesktop(true)
   }
 
   return (
