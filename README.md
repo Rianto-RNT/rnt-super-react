@@ -193,6 +193,23 @@ $ npm start
 - Refactoring the book list's scrolling behavior
 - Building a search component
 - Refining the search feature
+
+- Deploy Book-Club to Netlify
+
+```sh
+// open new terminal and run
+$ cd book-club
+$  npm run build
+
+// 1) go to netlify account
+// 2) in dashboard go to Site menu tab
+// 3) Click Add new site
+// 4) Choose Deploy Manualy
+// 5) Drag and Drop folder build of book-club to netlify site
+// 6) Wait until deployment complete
+// 7) Done and congratulation! you can share link to the world
+```
+
 - Book-Club Assets
 
   | Item                                  | Link                                                                                         |
