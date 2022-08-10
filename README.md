@@ -192,6 +192,7 @@ $ npm start
 - Adding animation to the panel
 - Refactoring the book list's scrolling behavior
 - Building a search component
+- Refining the search feature
 - Book-Club Assets
 
   | Item                                  | Link                                                                                         |
@@ -223,6 +224,7 @@ $ npm start
 - [react-cleaning-up-an-effect](https://reactjs.org/docs/hooks-reference.html#cleaning-up-an-effect)
 - [window.scroll()](https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll)
 - [string.prototype.includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes)
+- [react-uncontrolled-components](https://reactjs.org/docs/uncontrolled-components.html)
 
 ## Future Updates
 
