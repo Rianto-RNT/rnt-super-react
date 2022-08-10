@@ -5,7 +5,7 @@ import Book from '../Book'
 
 import {Container, H2, BookList} from './styles'
 
-const BooksContainer = ({books, pickBook, isPanelOpen}) => {
+const BooksContainer = ({books, pickBook, isPanelOpen, title}) => {
   const [scroll, setScroll] = useState(0)
 
   const prevPanelState = useRef(false)
@@ -30,13 +30,11 @@ const BooksContainer = ({books, pickBook, isPanelOpen}) => {
     }
 
     prevPanelState.current = isPanelOpen
-  }, [isPanelOpen, prevPanelState, scroll])
-
-  console.log(scroll)
+  }, [isPanelOpen, prevPanelState])
 
   return (
     <Container $isPanelOpen={isPanelOpen} $top={scroll}>
-      <H2>All Books</H2>
+      <H2>{title}</H2>
       <BookList>
         {books.map((book) => (
           <Book key={book._id} book={book} pickBook={pickBook} />

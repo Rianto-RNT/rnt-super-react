@@ -190,6 +190,18 @@ $ npm start
 - Building a detail panel to show more book info
 - Closing the panel and building a background shadow
 - Adding animation to the panel
+- Refactoring the book list's scrolling behavior
+- Building a search component
+- Book-Club Assets
+
+  | Item                                  | Link                                                                                         |
+  | ------------------------------------- | -------------------------------------------------------------------------------------------- |
+  | Figma                                 | [https://www.figma.com/file/MwZxjRaE0HcDKleUfypjwm/Project_3_Book_Club?node-id=3%3A19][pldb] |
+  | Work Sans (weight: 600)               | [https://fonts.google.com/specimen/Work+Sans?preview.text_type=custom&query=work][plgh]      |
+  | Libre Baskerville (style: 400 italic) | [https://fonts.google.com/specimen/Libre+Baskerville?query=libre+bask][plgd]                 |
+  | API                                   | [https://rnt-book-club-json.herokuapp.com/api/v1/books][plod]                                |
+  | Github Repo                           | [https://github.com/Rianto-RNT/rnt-super-react][plme]                                        |
+  | Live Demo                             | [Coming soon][plga]                                                                          |
 
 ## Articles
 
@@ -210,6 +222,7 @@ $ npm start
 - [wndow-scrolly](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY)
 - [react-cleaning-up-an-effect](https://reactjs.org/docs/hooks-reference.html#cleaning-up-an-effect)
 - [window.scroll()](https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll)
+- [string.prototype.includes()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes)
 
 ## Future Updates
 
